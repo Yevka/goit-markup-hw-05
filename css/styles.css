@@ -195,7 +195,7 @@ a {
   align-items: center;
   gap: 24px;
 }
-.visually-hiden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
