@@ -63,7 +63,7 @@
 
       <section class="features">
         <div class="container">
-          <h2 class="features-title">features</h2>
+          <h2 class="features-title visually-hiden">features</h2>
           <ul class="features-list">
             <li class="features-item">
               <div class="wrap-icon">
@@ -537,20 +537,34 @@
                 <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
               </svg>
             </div>
-            <label class="modal-label-text" for="user-text">Comment</label>
-            <div class="modal-field">
-              <textarea
-                class="modal-textarea modal-item"
-                name="user-text"
-                id="user-text"
-                placeholder="Text input"
-              ></textarea>
-            </div>
           </div>
-          <!-- <div class="modal-field">
-            <label class="" for=""></label>
-            <input type="checkbox" id="" name="" />
-          </div> -->
+          <div class="modal-field modal-field-comment">
+            <label class="modal-label-text" for="user-text">Comment</label>
+            <textarea
+              class="modal-textarea modal-item"
+              name="user-text"
+              id="user-text"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="modal-field modal-field-checkbox">
+            <input
+              class="modal-check visually-hiden"
+              type="checkbox"
+              id="user-accept"
+              name="user-accept"
+              value="true"
+            />
+            <label class="check-text" for="user-accept">
+              <span class="check-element">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a class="modal-chekbox-link" href="">Privacy Policy</a></label
+            >
+          </div>
           <button class="hero-btn modal-button" type="submit">Send</button>
         </form>
       </div>
